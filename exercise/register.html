@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mentme Blog</title>
+</head>
+<body>
+    <img src="images/logo.png" alt="logo">
+    <h2>MentMe Blog</h2><br>
+    <p><em>Home information</em></p>
+        <p><a href="home.html">Home|</a>
+        <a href="About.html">About|</a>
+        <a href="FAQ.html">FAQ|</a>
+        <a href="login.html">Login|</a>
+        <a href="register.html">Register|</a>
+        <a href="contact.html">Contact</a></p>
+    <hr>
+    <h3>Sign Up</h3>
+    <hr>
+    <h3>Create an Account</h3>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <form method="POST" action="">
+            <p>Firstname: <input type="text" name="Fname" value="" placeholder="Your Firstname"></p>
+            <p>Lastname: <input type="text" name="Lname" value="" placeholder="Your Lastname"></p>
+            <p>Gender:</p>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <p>Date of Birth:</p>
+            <input type="datetime-local" name="" value="">
+            <p>Select your interests:</p>
+            <ul>
+                <li><input type="checkbox" name="SYI" value="music">Music</li>
+                <li><input type="checkbox" name="SYI" value="comedy">Comedy</li>
+                <li><input type="checkbox" name="SYI" value="showbiz">Showbiz</li>
+                <li><input type="checkbox" name="SYI" value="edu">Education</li>
+            </ul>
+            <p>Age Range: <select>
+                <option value="">--Select Age--</option>
+                <option value="18-24">18-24</option>
+                <option value="25-29">25-29</option>
+                <option value="30-34">30-34</option>
+                <option value="35-39">35-39</option>
+                <option value="40-44">40-44</option>
+                <option value="45+">Over 45</option>
+            </select></p>
+            <p>Select Your Movies:<br>
+            <mark>Select more than one wher applicable</mark><br>
+            <select name="selectmovies" size="7" multiple>
+                <optgroup label="Series">
+                    <option value="GOT">Games of Throne</option>
+                    <option value="MH">Money Heist</option>
+                    <option value="BBT">Big Bang Theory</option>
+                    <option value="SV">Silicon Valley</option>
+                </optgroup>
+                <optgroup label="Anime">
+                    <option value="NS">Naruto</option>
+                    <option value="TS">Tensei Shitara</option>
+                    <option value="MI">Mahouka</option>
+                    <option value="M">Mondaji</option>
+                    <option value="B">Bleach</option>
+                    <option value="FF">Fairy Tail</option>
+                    <option value="OP">One Piece</option>
+                    <option value="OPM">One Punch Man</option>
+                    <option value="HS">Hellsing</option>
+                </optgroup>
+                <optgroup label="Sci-Fi">
+                    <option value="AE">Avengers:Endgame</option>
+                    <option value="AAOU">Avengers:Age of Ultron</option>
+                    <option value="A">The Avengers</option>
+                    <option value="FFH">Spiderman:Far from Home</option>
+                    <option value="TR">Thor: Ragnarok</option>
+                    <option value="CACV">captain America: Civil War</option>
+                    <option value="DS">Doctor Strange</option>
+                </optgroup>
+            </select></p>
+            <p>Select your favourite Color:<br>
+            <input type="color" name="" value=""></p>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Account Details</legend>
+        <p>Upload profile Picture<br>
+        <mark>Picture should not be more than 100kb</mark><br>   
+        <input type="file" name="" value="">
+        </p>
+        <form method="POST" action="">
+            <p>Username: <input type="text" name="Uname" value="" placeholder="Your Username"></p>
+            <p>Password: <input type="password" name="pass" value="" placeholder="Your Password"></p>
+            <p>Retype Password: <input type="password" name="pass" value="" placeholder="Retype Your Password"></p>
+            <p>Rate us Now(0 to 10)<br>
+            <input type="range" min="1" max="10" value="">
+            </p>
+            <p><input type="checkbox" name="IAgree" value="yes">I agree to your ters and conditions<br>
+            <a href="#">Click Here</a> for terms and conditions</p>
+            <input type="submit" name="" value="Sign Up">
+            <input type="reset" name="" value="Clear Data">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Disclaimer</legend>
+        <p>All informations provided were given voluntarily by the bearer of the above details</p>
+    </fieldset>   
+    <blockquote><h3>Other Links</h3></blockquote>  
+        <ul>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Archives(90)</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>                      
+        <P>Copyright&copy; 2019</P>
+        <p>
+        All rigths Reserved
+        </p>                           
+</body>
+</html>  
